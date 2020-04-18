@@ -11,27 +11,27 @@ public class LibraryManagementSystem extends JFrame implements ActionListener{
         
         public LibraryManagementSystem() {
 		
-                setSize(1366,390);
+                setSize(1366,800);
                 setLayout(null);
-                setLocation(300,300);
+                setLocation(0,0);
 
 		l1 = new JLabel("");
                 b1 = new JButton("Next");
                 
-                b1.setBackground(Color.WHITE);
+                b1.setBackground(Color.GREEN);
                 b1.setForeground(Color.BLACK);
 				
                 
                 
                 ImageIcon i1  = new ImageIcon(ClassLoader.getSystemResource("library/management/system/icons/first.jpg"));
-                Image i3 = i1.getImage().getScaledInstance(1366, 390,Image.SCALE_DEFAULT);
+                Image i3 = i1.getImage().getScaledInstance(1366, 500,Image.SCALE_DEFAULT);
                 ImageIcon i2 = new ImageIcon(i3);
                 l1 = new JLabel(i2);
                 
-                b1.setBounds(1050,250,200,60);
+                b1.setBounds(580,500,200,60);
 		l1.setBounds(0, 0, 1366, 390);
                 
-                l1.add(b1);
+                    add(b1);
 		add(l1);
                 
                 b1.addActionListener(this);

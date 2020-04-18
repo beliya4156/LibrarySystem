@@ -116,7 +116,7 @@ public class Forgot extends JFrame implements ActionListener{
 	panel.setBorder(new TitledBorder(new LineBorder(new Color(139, 69, 19), 2), "Forgot-Panel",
 			TitledBorder.LEADING, TitledBorder.TOP, null, new Color(178, 34, 34)));
 	panel.setBounds(47, 45, 508, 281);
-        panel.setBackground(Color.WHITE);
+        panel.setBackground(Color.YELLOW);
 	contentPane.add(panel);
     }
     

@@ -193,8 +193,8 @@ public class Home extends JFrame implements ActionListener{
             panel2.setBackground(Color.WHITE);
             contentPane.add(panel2);
             
-            getContentPane().setBackground(Color.WHITE);
-            contentPane.setBackground(Color.WHITE);
+            getContentPane().setBackground(Color.GREEN);
+            contentPane.setBackground(Color.GREEN);
 	}
         
         

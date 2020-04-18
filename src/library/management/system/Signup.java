@@ -111,7 +111,7 @@ public class Signup extends JFrame implements ActionListener{
 	panel.setBorder(new TitledBorder(new LineBorder(new Color(128, 128, 0), 2), "Create-Account",
 			TitledBorder.LEADING, TitledBorder.TOP, null, new Color(34, 139, 34)));
 	panel.setBounds(31, 46, 476, 296);
-        panel.setBackground(Color.WHITE);
+        panel.setBackground(Color.GREEN);
 	contentPane.add(panel);
     }
     

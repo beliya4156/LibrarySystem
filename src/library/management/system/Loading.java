@@ -52,7 +52,7 @@ public class Loading extends JFrame implements Runnable {
             setContentPane(contentPane);
             contentPane.setLayout(null);
 
-            JLabel lbllibraryManagement = new JLabel("Smart Library v5.1");
+            JLabel lbllibraryManagement = new JLabel("Smart Library version 1");
             lbllibraryManagement.setForeground(new Color(72, 209, 204));
             lbllibraryManagement.setFont(new Font("Trebuchet MS", Font.BOLD, 35));
             lbllibraryManagement.setBounds(130, 46, 500, 35);
@@ -71,7 +71,7 @@ public class Loading extends JFrame implements Runnable {
             contentPane.add(lblNewLabel_2);
 
             JPanel panel = new JPanel();
-            panel.setBackground(Color.WHITE);
+            panel.setBackground(Color.YELLOW);
             panel.setBounds(0, 0, 590, 390);
             contentPane.add(panel);
                 

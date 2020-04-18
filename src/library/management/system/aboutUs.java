@@ -25,10 +25,10 @@ public class aboutUs extends JFrame{
 
             JLabel l1 = new JLabel("New label");
             ImageIcon i1  = new ImageIcon(ClassLoader.getSystemResource("library/management/system/icons/logo.jpg"));
-            Image i2 = i1.getImage().getScaledInstance(100, 100,Image.SCALE_DEFAULT);
+            Image i2 = i1.getImage().getScaledInstance(200, 200,Image.SCALE_DEFAULT);
             ImageIcon i3 = new ImageIcon(i2);
             l1 = new JLabel(i3);
-            l1.setBounds(500, 40, 100, 100);
+            l1.setBounds(430, 40, 300, 300);
             contentPane.add(l1);
 
 

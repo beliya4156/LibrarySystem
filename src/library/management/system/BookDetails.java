@@ -123,7 +123,7 @@ public class BookDetails extends JFrame implements ActionListener{
 				TitledBorder.LEADING, TitledBorder.TOP, null, new Color(0, 128, 0)));
 	panel.setBounds(67, 54, 793, 368);
 	contentPane.add(panel);
-        panel.setBackground(Color.WHITE);
+        panel.setBackground(Color.red);
 	Book();
     }
     

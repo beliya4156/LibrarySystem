@@ -147,8 +147,8 @@ public class AddStudent extends JFrame implements ActionListener{
 	panel.setBackground(new Color(211, 211, 211));
 	panel.setBounds(10, 38, 358, 348);
         
-        contentPane.setBackground(Color.WHITE);
-        panel.setBackground(Color.WHITE);
+        contentPane.setBackground(Color.YELLOW);
+        panel.setBackground(Color.pink);
         
 	contentPane.add(panel);
 	random();

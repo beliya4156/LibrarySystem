@@ -144,8 +144,8 @@ public class AddBook extends JFrame implements ActionListener{
 	panel.setBounds(10, 29, 398, 344);
 	contentPane.add(panel);
         
-        panel.setBackground(Color.WHITE);
-        contentPane.setBackground(Color.WHITE);
+        panel.setBackground(Color.YELLOW);
+        contentPane.setBackground(Color.PINK);
 	random();
 
     }

@@ -66,7 +66,7 @@ public class Statistics extends JFrame{
 				TitledBorder.LEADING, TitledBorder.TOP, null, new Color(0, 128, 128)));
 	panel.setForeground(new Color(0, 128, 128));
 	panel.setBounds(26, 36, 737, 240);
-        panel.setBackground(Color.WHITE);
+        panel.setBackground(Color.GREEN);
 	contentPane.add(panel);
 
 	JLabel l1 = new JLabel("Back");
@@ -101,7 +101,7 @@ public class Statistics extends JFrame{
 	panel_1.setBorder(new TitledBorder(new LineBorder(new Color(0, 204, 153), 2, true), "Return-Book-Details",
 		TitledBorder.RIGHT, TitledBorder.TOP, null, new Color(0, 102, 51)));
 	panel_1.setBounds(22, 299, 741, 240);
-        panel_1.setBackground(Color.WHITE);
+        panel_1.setBackground(Color.GREEN);
 	contentPane.add(panel_1);
         
 
